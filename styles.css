@@ -1,0 +1,261 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    overscroll-behavior: none;
+    margin: 0 0 0 0 ;
+}
+.navbar{
+    background-color: #5bbc2e; 
+    padding: 3 10%;
+    align-items: center;
+}
+.logo{
+    width: 125px;
+    margin-bottom: 15px;
+    margin-right: 80px;
+}
+.nav-item{
+    font-size: 14px;
+    margin-right: 10px;
+    text-transform: uppercase;
+
+}
+.carousel-caption h1{
+    font-size: 49px;
+    font-weight: bold;
+    padding-top: 20%;
+}
+.content{
+    padding: 4% 10%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.content-text{
+    padding: 20px 14%;
+    font-family: bold;
+    color: #515151;
+    line-height: 2.5;
+    text-align: center;
+}
+.subcontent{
+    display: flex;
+    padding-top: 60px;
+    gap:58px;
+}
+.subtiltle{
+    color: #5bbc2e;
+    padding: 40px 0px;
+    text-transform: uppercase;
+ 
+}
+.sublimage{
+    height: 43px;
+}
+
+.content_text1{
+    font-size: 12px;
+    color: #515151;
+    line-height: 2.5;
+}
+
+.content2{
+    padding: 5% 13%;
+    display:flex;
+    justify-content: space-between;
+}
+.bigpig1{
+    width: 111%;
+}
+.right{
+    width: 500px;
+}
+.h2{
+    font-size: 30px;
+    color: #8d8d8d;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+.content_text2{
+    font-size: 16px;
+    color: #515151;
+    line-height: 1.7;
+}
+.content3{
+    padding: 5% 7%;
+    display:flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+.arr{
+    display:flex;
+    margin-bottom: 10px;
+    color: #515151;
+    align-items: center;
+}
+.arrow{
+    width: 14px;
+    height: 14px;
+    margin: 0 15px;
+
+}
+.bigpage2{
+    width: 100%;
+    margin: 20px 70px 20px 0px;
+}
+.content4{
+    padding: 5% 7%;
+    text-align: center;
+}
+.wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.card{
+    width: 20vw;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pic{
+    width: 100%;
+}
+.bottom{
+    border: 1px solid darkgray;
+    border-top: 0px;
+    margin-top: -4px;
+    padding: 10px 26%;
+}
+.graph{
+    color: #f5f5f5;
+    background-color: rgb(115, 168, 228);
+    padding: 13px;
+    margin-bottom: 20px;
+}
+.text{
+    color: #4b4b4b;
+}
+footer {
+    background: #e0e0e0;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: start;
+    padding: 20px 0;
+}
+
+@media (max-width: 1024px) {
+    .carousel-caption h1{
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 20%;
+    }
+    .h1{
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .content2{
+        gap: 100px;
+      
+    }
+    .right{
+        width: 100%;
+    }
+    .content3{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .arr{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .arr img .arrow{
+        margin: 0;
+    }
+    .bigpig1{
+        width: 100%;
+        margin: 0%;
+    }
+    .card{
+        width: 19.5vw;
+        font-size: 11px;
+    }
+    .bottom{
+        padding: 10px 20%;
+    }
+    .graph{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 570px) {
+    .subcontent{
+        display: flex;
+        flex-direction: column;
+    }
+    .content2{
+        flex-direction: column;
+    }
+    .bigpig1{
+        width:100%;
+    }    
+    .right{
+        width:100%;
+    }
+    .content3{
+        padding: 5% 3%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .bigpage2{
+        margin: 20px 0;
+        width: 100%;
+    }
+    .h2{
+        font-size: 1.5em;
+    }
+    .arr{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .arr img .arrow{
+        margin: 0;
+    }
+    .content4{
+        padding: 5% 3%;
+    }
+
+    .wrap{
+        grid-template-columns: repeat(2, 1fr);
+        gap:15px;
+        margin-top: 30px;
+    }
+    .card{
+        width:45vw;
+        font-size: 10px;
+    }
+    .bottom{
+        padding: 5px 10%;
+    }
+    .graph{
+        padding: 8px;
+    }
+
+    .footer{
+        font-size: 10px;
+        padding: 5% 3%    
+    }
+    
+}
+
